@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .topoDaPagina {
     background-color: rgb(112, 78, 50);
     position: fixed;
     font-size: 26.000px;
+    font-weight: 300;
     text-align:center;
     z-index: 2;
     
@@ -50,6 +51,8 @@
     position: relative;
     color: rgb(0, 0, 0);
     font-size: 50px;
+    font-weight: 300;
+    font-style: italic;
     text-align: center;
 
 }
@@ -178,8 +181,11 @@ text-shadow: none;
     width: 70%;
     flex-direction: row-reverse;
     padding: 10%;
+    
 
 }
+
+
 
 #imgHistoria {
     display:flex;
@@ -195,9 +201,11 @@ text-shadow: none;
        display: flex;
        flex-direction: row-reverse;
        font-size: 20px;
+       font-weight: 300;
        text-align: justify;
        margin-right: 80px;
        padding-top: 20px;
+       padding-right: 20px;
        height:300px;
        width:600px;
        overflow-y: scroll;
