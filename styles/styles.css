@@ -144,15 +144,15 @@ fieldset {
 }
 
 input[type=email] {
-    width: 365px;
+    width: 335px;
     }
 
 input[type=text] {
-    width: 365px;
+    width: 335px;
     }
 
 textarea {
-    width: 365px;
+    width: 335px;
     }
 
 .form-submit-button {
