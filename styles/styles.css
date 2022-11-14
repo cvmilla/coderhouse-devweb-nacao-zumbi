@@ -138,21 +138,22 @@ tr /*linha*/{
 }
 
 fieldset {
-    padding: 2%;
+    padding: 1.5%;
     background-color: #F0F0F0;
     border: none;
+    
 }
 
 input[type=email] {
-    width: 335px;
+    width: 305px;
     }
 
 input[type=text] {
-    width: 335px;
+    width: 305px;
     }
 
 textarea {
-    width: 335px;
+    width: 305px;
     }
 
 .form-submit-button {
