@@ -17,7 +17,7 @@
 #menu ul {
     max-width: 10000px;
     list-style: none;
-    padding: 0;
+    padding: 0px;
     
 }
 
@@ -138,44 +138,11 @@ tr /*linha*/{
 }
 
 fieldset {
-    padding: 1.5%;
     background-color: #F0F0F0;
     border: none;
     
 }
 
-input[type=email] {
-    width: 305px;
-    }
-
-input[type=text] {
-    width: 305px;
-    }
-
-textarea {
-    width: 305px;
-    }
-
-.form-submit-button {
-background: #BDA38E;
-height: 30px;
-width: 60px;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 8px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow: none;
-
-}
-
-.form-submit-button:hover {
-background: #000000;
-color: #fff;
-border: 1px solid #eee;
-border-radius: 8px;
-box-shadow: 5px 5px 5px #eee;
-text-shadow: none;
-}
 
 h1 {
     animation-duration: 2s;
@@ -228,7 +195,7 @@ h1 {
 
 
 
-.container {
+.container-fluid {
     display: grid;
     grid-template-areas: 
     'header'
