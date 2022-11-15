@@ -35,8 +35,8 @@
 }
 
 #menu ul li a:hover {
-    background-color: rgb(0, 0, 0);
-
+    background-image: linear-gradient(to top, rgb(112, 78, 50), rgb(0, 0, 0));
+    transform: translate(3px, 3px);
 }
 
 .conteudo {
@@ -175,6 +175,20 @@ border: 1px solid #eee;
 border-radius: 8px;
 box-shadow: 5px 5px 5px #eee;
 text-shadow: none;
+}
+
+h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
 }
 
 .conteudoHistoria {
