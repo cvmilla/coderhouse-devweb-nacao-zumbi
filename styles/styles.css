@@ -112,14 +112,12 @@
 .cabecalho {
     background-color: rgb(151, 106, 68);
     color: white;
-    font-family:'Segoe UI', sans-serif;
     padding: 8px;
     border: 2px;
 
 }
 
 td /*coluna */{
-    font-family: 'Segoe UI', sans-serif;
     font-size: 15px;
     border: 1,5px solid rgb(151, 106, 68);
     width: 250px;
