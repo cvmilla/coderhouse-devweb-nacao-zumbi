@@ -195,7 +195,6 @@ h1 {
 
 .container-fluid {
     display: grid;
-    grid-template-rows: 10% 80% 10%;
     grid-template-areas: 
     'header'
     'content'
