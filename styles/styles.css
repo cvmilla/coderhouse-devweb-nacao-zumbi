@@ -4,39 +4,85 @@
     font-family: 'Inter', sans-serif;
 }
 
-.topoDaPagina {
-    background-color: rgb(112, 78, 50);
-    position: fixed;
-    font-size: 26.000px;
-    font-weight: 300;
-    text-align:center;
-    z-index: 2;
-    
+/* MENU MOBILE */
+@media screen and (max-width: 700px) {
+
+    .menu{
+        display:none;
+    }
+    .topoDaPagina{
+        display: none;
+    }
+
+    .menumobile .menumobile__list{
+        list-style: none;
+        background-color: rgb(112, 78, 50);
+        padding: 3px;
+    }
+
+    .menumobile .menumobile__list a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .menumobile .menumobile__list :hover {
+        background-image: linear-gradient(to top, rgb(112, 78, 50), rgb(0, 0, 0));
+        
+    }
+
 }
 
-#menu ul {
-    max-width: 10000px;
-    list-style: none;
-    padding: 0px;
+@media screen and (min-width: 701px) and (max-width: 992px) {
     
+    .topoDaPagina{
+        display: none;
+    }
+
 }
 
-#menu ul li {
-    display: inline-block;
+/*MENU DESKTOP*/
+@media screen and (min-width: 993px) {
     
-}
+    .menumobile {
+        display: none;
+    }
 
-#menu ul li a {
-    color: white;
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
+    .topoDaPagina {
+        background-color: rgb(112, 78, 50);
+        position: fixed;
+        font-size: 26.000px;
+        font-weight: 300;
+        text-align:center;
+        z-index: 2;
+        
+    }
     
-}
+    
+    #menu ul {
+        max-width: 10000px;
+        list-style: none;
+        padding: 0px;
+        
+    }
+    
+    #menu ul li {
+        display: inline-block;
+        
+    }
+    
+    #menu ul li a {
+        color: white;
+        padding: 20px;
+        display: inline-block;
+        text-decoration: none;
+        
+    }
+    
+    #menu ul li a:hover {
+        background-image: linear-gradient(to top, rgb(112, 78, 50), rgb(0, 0, 0));
+        transform: translate(3px, 3px);
+    }
 
-#menu ul li a:hover {
-    background-image: linear-gradient(to top, rgb(112, 78, 50), rgb(0, 0, 0));
-    transform: translate(3px, 3px);
 }
 
 .conteudo {
@@ -98,7 +144,7 @@
     text-align: center;
     
 }
-
+ /* Página Discografia - Tabela */
 .cabecalho {
     background-color: rgb(151, 106, 68);
     color: white;
@@ -119,6 +165,7 @@ tr /*linha*/{
     
 }
 
+/*Formulário*/
 #contatoForm {
     display: flex;
     justify-content: center;
@@ -131,7 +178,7 @@ fieldset {
     
 }
 
-
+/*Animação*/
 h1 {
     animation-duration: 2s;
     animation-name: aparecer;
@@ -145,7 +192,7 @@ h1 {
         opacity: 100;
     }
 }
-
+/*Página História */
 .conteudoHistoria {
     display: flex;
     width: 70%;
@@ -182,7 +229,7 @@ h1 {
 }
 
 
-
+/*GRID*/
 .container-fluid {
     display: grid;
     grid-template-areas: 
