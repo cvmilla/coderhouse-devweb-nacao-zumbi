@@ -1,0 +1,24 @@
+{
+  "name": "nacao_zumbi",
+  "version": "1.0.0",
+  "description": "Trabalho desenvolvido por Camilla Coelho e Caroline Cassiano para o curso de Desenvolvimento Web na Coderhouse.<br><br>\r Professora: Samira Costa;<br>\r Tutoria: Allan Kildare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass styles/scss -o styles/css","watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvmilla/nacao_zumbi-coelho_cassiano.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvmilla/nacao_zumbi-coelho_cassiano/issues"
+  },
+  "homepage": "https://github.com/cvmilla/nacao_zumbi-coelho_cassiano#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
